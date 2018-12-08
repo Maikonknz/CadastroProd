@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">CadastroProd</string>
+    <string name="Title_aviso">Aviso</string>
+    <string name="Message_campos_invalidos_brancos">Há campos inválidos ou em branco!</string>
+    <string name="Lbl_OK">OK</string>
+    <string name="title_menu_ok">OK</string>
+    <string name="title_menu_cancelar">Cancelar</string>
+    <string name="escolha_uma_op_o">Escolha uma Opção:</string>
+    <string name="cadastrar_produto">Cadastrar Produto</string>
+    <string name="listar_produtos">LISTAR PRODUTOS</string>
+    <string name="modificar_produto">MODIFICAR PRODUTO</string>
+    <string name="excluir_produto">EXCLUIR PRODUTO</string>
+    <string name="perfil">PERFIL</string>
+    <string name="title_menu_voltar">Voltar</string>
+    <string name="categoria">Categoria</string>
+    <string name="descricao">Descricao</string>
+    <string name="nome">Nome</string>
+    <string name="unidade">Unidade</string>
+    <string name="quantidade">Quantidade</string>
+    <string name="valor">Valor</string>
+    <string name="fornecedor">Fornecedor</string>
+    <string name="textview">TextView</string>
+</resources>

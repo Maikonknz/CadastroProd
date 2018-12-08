@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textcodigo"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Codigo" />
+
+        <TextView
+            android:id="@+id/textnome"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Nome" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="382dp"
+        android:layout_height="39dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="18dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textdescricao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descricao" />
+
+        <TextView
+            android:id="@+id/textfornecedor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fornecedor" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="382dp"
+        android:layout_height="19dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="56dp">
+
+        <TextView
+            android:id="@+id/textquantidade"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:text="Quantidade" />
+
+        <TextView
+            android:id="@+id/textunidade"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Unidade" />
+
+        <TextView
+            android:id="@+id/textvalor"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Valor" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
